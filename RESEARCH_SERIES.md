@@ -17,6 +17,7 @@ This file maps production/manufacturing repositories across planning, scheduling
 - `production-inventory-routing-optimization` — plant production, plant/customer inventory, route activation, and vehicle-capacity decisions in one model.
 - `energy-carbon-aware-lot-sizing-scheduling` — production setups, inventory, grid electricity, PV, battery storage, and carbon-aware time shifting.
 - `finite-capacity-aps-control-tower` — ERP/Excel-facing finite-capacity planning and planner-readable bottleneck/exception reporting.
+- `optimizer-based-order-promising` — ATP/CTP promise-date optimization using current inventory and optional finite-capacity future production.
 
 ## Classical production scheduling
 
