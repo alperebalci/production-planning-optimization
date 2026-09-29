@@ -9,6 +9,7 @@ on:
       - "projects/production-inventory-routing-optimization/**"
       - "projects/energy-carbon-aware-lot-sizing-scheduling/**"
       - "projects/finite-capacity-aps-control-tower/**"
+      - "projects/optimizer-based-order-promising/**"
       - ".github/workflows/modern-production-planning.yml"
   pull_request:
     paths:
@@ -35,6 +36,7 @@ jobs:
           - production-inventory-routing-optimization
           - energy-carbon-aware-lot-sizing-scheduling
           - finite-capacity-aps-control-tower
+          - optimizer-based-order-promising
     defaults:
       run:
         working-directory: projects/${{ matrix.project }}
