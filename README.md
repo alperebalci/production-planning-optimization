@@ -10,6 +10,11 @@ This repository is the primary umbrella repository for this Jors Academy researc
 - [`ellipsoidal-robust-production-planning-socp`](projects/ellipsoidal-robust-production-planning-socp/)
 - [`multi-product-demand-allocation-milp`](projects/multi-product-demand-allocation-milp/)
 - [`two-stage-stochastic-capacity-planning`](projects/two-stage-stochastic-capacity-planning/)
+- [`integrated-lot-sizing-and-scheduling`](projects/integrated-lot-sizing-and-scheduling/)
+- [`rolling-horizon-forecast-evolution-production-planning`](projects/rolling-horizon-forecast-evolution-production-planning/)
+- [`production-inventory-routing-optimization`](projects/production-inventory-routing-optimization/)
+- [`energy-carbon-aware-lot-sizing-scheduling`](projects/energy-carbon-aware-lot-sizing-scheduling/)
+- [`finite-capacity-aps-control-tower`](projects/finite-capacity-aps-control-tower/)
 
 Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
 <!-- portfolio-umbrella:end -->
