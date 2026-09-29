@@ -18,3 +18,13 @@ The model therefore does more than subtract sales orders from stock. It asks whe
 Modern order-promising systems sit between order capture and planning. A robust promise needs visibility into current/planned supply, BOM/routing/resource capacity, and current demand commitments.
 
 Current scope is single-site manufacturing with fixed order quantities and no split shipments. Natural extensions include BOM/component availability, buy/transfer sources, multiple plants, substitutions, allocations/supply protection, transportation lead times, split fulfillment, and concurrent reservation logic.
+
+
+## Enterprise planning references
+
+This project uses standard ATP/CTP terminology rather than vendor-specific APIs.
+
+- SAP Capable-to-Promise documentation: https://help.sap.com/saphelp_scm700_ehp01/helpdata/en/12/42c95360267614e10000000a174cb4/content.htm
+- Oracle Global Order Promising overview: https://docs.oracle.com/en/cloud/saas/supply-chain-and-manufacturing/25c/fascp/overview-of-global-order-promising.html
+
+These references motivate the system boundary: ATP checks existing/planned supply, while CTP can create new feasible supply by considering manufacturing capacity. The implementation here is independent and deliberately smaller than either commercial platform.
