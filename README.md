@@ -15,6 +15,7 @@ This repository is the primary umbrella repository for this Jors Academy researc
 - [`production-inventory-routing-optimization`](projects/production-inventory-routing-optimization/)
 - [`energy-carbon-aware-lot-sizing-scheduling`](projects/energy-carbon-aware-lot-sizing-scheduling/)
 - [`finite-capacity-aps-control-tower`](projects/finite-capacity-aps-control-tower/)
+- [`optimizer-based-order-promising`](projects/optimizer-based-order-promising/)
 
 Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
 <!-- portfolio-umbrella:end -->
@@ -267,3 +268,10 @@ This repository is intended as an educational and research reference. It is not 
 ## License
 
 Commercial use is prohibited. See `LICENSE` for the full terms.
+
+
+## APS architecture and professional scope
+
+- [APS engine architecture](docs/APS_ENGINE_ARCHITECTURE.md)
+- [ERP-to-optimization data contract](docs/ERP_TO_OPTIMIZATION_DATA_CONTRACT.md)
+- [From manual planning to optimization engineering](docs/FROM_MANUAL_PLANNING_TO_OPTIMIZATION_ENGINEERING.md)
