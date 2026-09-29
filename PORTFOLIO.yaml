@@ -1,0 +1,15 @@
+schema_version: 1
+repository: production-planning-optimization
+role: umbrella
+axis: problem-class
+area: production-planning
+status: active
+owner: jorsacademy
+projects:
+  - ellipsoidal-robust-production-planning-socp
+  - multi-product-demand-allocation-milp
+  - two-stage-stochastic-capacity-planning
+conventions:
+  provenance_records: true
+  reproducibility_expected: true
+  benchmark_assumptions_documented: true
