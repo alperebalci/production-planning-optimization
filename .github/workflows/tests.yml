@@ -30,7 +30,7 @@ jobs:
           pip install -e .
 
       - name: Run tests
-        run: pytest -q
+        run: pytest -q tests
 
       - name: Run sample scenario
         run: python examples/basic_multilevel_plan.py
