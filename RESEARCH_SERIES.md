@@ -10,6 +10,15 @@ This file maps production/manufacturing repositories across planning, scheduling
 - `multi-period-warehouse-rental-lp-optimization` — time-phased capacity/rental planning closely related to production/logistics planning.
 - `predict-then-optimize-production-planning-spo-plus-pytorch` — contextual production planning with decision-focused learning and SPO+.
 
+## Modern integrated production planning
+
+- `integrated-lot-sizing-and-scheduling` — lot quantities, slot assignments, sequence-dependent changeovers, inventory, and backlog in one MILP.
+- `rolling-horizon-forecast-evolution-production-planning` — forecast vintages plus frozen/slushy/liquid zones and explicit plan-nervousness cost.
+- `production-inventory-routing-optimization` — plant production, plant/customer inventory, route activation, and vehicle-capacity decisions in one model.
+- `energy-carbon-aware-lot-sizing-scheduling` — production setups, inventory, grid electricity, PV, battery storage, and carbon-aware time shifting.
+- `finite-capacity-aps-control-tower` — ERP/Excel-facing finite-capacity planning and planner-readable bottleneck/exception reporting.
+- `optimizer-based-order-promising` — ATP/CTP promise-date optimization using current inventory and optional finite-capacity future production.
+
 ## Classical production scheduling
 
 - `parallel-machine-scheduling-milp-optimization` — exact MILP scheduling on parallel machines.

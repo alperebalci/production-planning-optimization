@@ -30,7 +30,8 @@ jobs:
           pip install -e .
 
       - name: Run tests
-        run: pytest -q
+        # Root package only; projects/* have isolated CI workflows.
+        run: pytest -q tests
 
       - name: Run sample scenario
         run: python examples/basic_multilevel_plan.py

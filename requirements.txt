@@ -1,4 +1,4 @@
 pandas>=2.2
 numpy>=2.0
-PuLP>=2.9
+PuLP>=2.9,<3.0
 pytest>=8.0
