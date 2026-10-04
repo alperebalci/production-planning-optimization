@@ -10,6 +10,7 @@ This repository is the primary umbrella repository for this Jors Academy researc
 - [`ellipsoidal-robust-production-planning-socp`](projects/ellipsoidal-robust-production-planning-socp/)
 - [`multi-product-demand-allocation-milp`](projects/multi-product-demand-allocation-milp/)
 - [`two-stage-stochastic-capacity-planning`](projects/two-stage-stochastic-capacity-planning/)
+- [`closed-loop-production-decision-system`](projects/closed-loop-production-decision-system/) — production-grade prescriptive workflow with validation, optimizer fallback, audit trail, human override and drift-triggered reoptimization
 
 Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
 <!-- portfolio-umbrella:end -->
